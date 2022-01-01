@@ -12,19 +12,19 @@ Going through the source code we can say that if we can overwrite the `routes.py
 
 Let's modify the file and put an endpoint for us
 
-![[sst1.png]]
+![](images/sst1.png)
 
 Let's make the `.tar.gz` file with the `path` where we want to put the `routes.py` file
 
-![[sst2.png]]
+![](images/sst2.png)
 
 Let's upload the file and test our endpoint
 
-![[sst4.png]]
+![](images/sst4.png)
 
 Now we use this payload to run command:
 `{{request.application.__globals__.__builtins__.__import__('os').popen('id').read()}}`
 
-And BOOM
+And BOOM:fire::fire::fire:
 
-![[sst3.png]]
+![](images/sst3.png)
